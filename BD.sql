@@ -74,6 +74,7 @@ CREATE TABLE IF NOT EXISTS Profesores_Cursos(
 CREATE TABLE IF NOT EXISTS Asistencias_Estudiantes(
     asistencia_id INT NOT NULL,
     estudiante_id INT NOT NULL,
+    profesor_id INT NOT NULL,
     asistencia BOOLEAN NOT NULL,
     FOREIGN KEY (asistencia_id)
         REFERENCES Asistencias(id)
@@ -83,7 +84,11 @@ CREATE TABLE IF NOT EXISTS Asistencias_Estudiantes(
         REFERENCES Estudiantes(id)
         ON DELETE CASCADE
         ON UPDATE CASCADE,
-    PRIMARY KEY (asistencia_id, estudiante_id)
+    FOREIGN KEY (profesor_id)
+        REFERENCES Profesores(id)
+        ON DELETE CASCADE
+        ON UPDATE CASCADE,
+    PRIMARY KEY (asistencia_id, estudiante_id, profesor_id)
 ) ENGINE = INNODB;
 
 /* Insert de Cargos */

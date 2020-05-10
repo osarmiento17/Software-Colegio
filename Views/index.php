@@ -56,10 +56,9 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <h2>Panel de Administraci&oacute;n</h2>
+                <h1 class="display-4">Panel de Administraci&oacute;n</h1>
             </div>
         </div>
-        <br>
         <br>
         <div class="row mb-5">
             <div class="col-sm-12">
@@ -71,7 +70,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-12 col-md-6 col-lg-4 mt-1 mb-1">
+            <div class="col-sm-12 col-md-4 mt-1 mb-1">
                 <div class="card shadow bg-info text-white">
                     <div class="row no-glutters">
                         <div class="col-6">
@@ -83,14 +82,14 @@
                             </div>
                         </div>
                     </div>
-                    <a href="#" class="card-link text-white">
+                    <a href="http://localhost/Clases/SoftwareColegio/Views/cursos.php" class="card-link text-white">
                         <div class="card-footer text-center">
                             <h4>Cursos</h4>
                         </div>
                     </a>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-4 mt-1 mb-1">
+            <div class="col-sm-12 col-md-4 mt-1 mb-1">
                 <div class="card shadow bg-success text-white">
                     <div class="row no-glutters">
                         <div class="col-6">
@@ -102,14 +101,14 @@
                             </div>
                         </div>
                     </div>
-                    <a href="#" class="card-link text-white">
+                    <a href="http://localhost/Clases/SoftwareColegio/Views/profesores.php" class="card-link text-white">
                         <div class="card-footer text-center">
                             <h4>Profesores</h4>
                         </div>
                     </a>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-4 mt-1 mb-1">
+            <div class="col-sm-12 col-md-4 mt-1 mb-1">
                 <div class="card shadow bg-secondary text-white">
                     <div class="row no-glutters">
                         <div class="col-6">
@@ -121,9 +120,9 @@
                             </div>
                         </div>
                     </div>
-                    <a href="#" class="card-link text-white">
+                    <a href="http://localhost/Clases/SoftwareColegio/Views/estudiantes.php" class="card-link text-white">
                         <div class="card-footer text-center">
-                            <h4>Alumnos</h4>
+                            <h4>Estudiantes</h4>
                         </div>
                     </a>
                 </div>
